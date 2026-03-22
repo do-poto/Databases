@@ -17,13 +17,13 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `Zawodnicy`
+-- Table structure for table `Riders`
 --
 
-DROP TABLE IF EXISTS `Zawodnicy`;
+DROP TABLE IF EXISTS `Riders`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8mb4 */;
-CREATE TABLE `Zawodnicy` (
+CREATE TABLE `Riders` (
   `rider_id` int(11) NOT NULL AUTO_INCREMENT,
   `rider_name` varchar(255) NOT NULL,
   `rider_surname` varchar(255) NOT NULL,
@@ -37,16 +37,16 @@ CREATE TABLE `Zawodnicy` (
   `team_dk_li` char(3) DEFAULT NULL,
   `team_se_eli` char(3) DEFAULT NULL,
   PRIMARY KEY (`rider_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=511 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=482 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `Zawodnicy`
+-- Dumping data for table `Riders`
 --
 
-LOCK TABLES `Zawodnicy` WRITE;
-/*!40000 ALTER TABLE `Zawodnicy` DISABLE KEYS */;
-INSERT INTO `Zawodnicy` VALUES
+LOCK TABLES `Riders` WRITE;
+/*!40000 ALTER TABLE `Riders` DISABLE KEYS */;
+INSERT INTO `Riders` VALUES
 (1,'Pawel','Caban','2008-06-09',17,'POL','CZE',NULL,NULL,NULL,NULL,NULL),
 (2,'Alan','Ciurzynski','2008-07-18',17,'POL','CZE',NULL,NULL,NULL,NULL,NULL),
 (3,'Mads','Hansen','2000-06-26',25,'DEN','CZE',NULL,NULL,NULL,'VOJ',NULL),
@@ -272,7 +272,7 @@ INSERT INTO `Zawodnicy` VALUES
 (223,'Anton','Karlsson','2000-07-20',25,'SWE',NULL,NULL,NULL,NULL,NULL,'VIK'),
 (224,'Mathias','Thornblom','1992-07-14',33,'SWE',NULL,NULL,NULL,NULL,NULL,'LJE'),
 (225,'Jonathan','Grahn','2004-12-30',21,'SWE',NULL,NULL,NULL,NULL,NULL,'IND');
-/*!40000 ALTER TABLE `Zawodnicy` ENABLE KEYS */;
+/*!40000 ALTER TABLE `Riders` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -284,4 +284,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-03-21 15:04:07
+-- Dump completed on 2026-03-22 12:35:24
