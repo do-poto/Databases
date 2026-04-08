@@ -1,5 +1,5 @@
-CREATE DATABASE speedway;
-USE speedway;
+CREATE DATABASE data;
+USE data;
 
 -- Ekstraliga
 CREATE TABLE Ekstraliga (
