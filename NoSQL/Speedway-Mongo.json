@@ -1,0 +1,25 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "e7d55c86-d206-4d36-a721-9e8d03fda0d9",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1776755065398"
+        }
+      },
+      "favorite": {
+        "name": "Speedway",
+        "color": "color2"
+      },
+      "savedConnectionType": "recent",
+      "connectionOptions": {
+        "connectionString": "mongodb://localhost:27017/",
+        "oidc": {}
+      }
+    }
+  ]
+}
